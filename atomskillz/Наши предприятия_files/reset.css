@@ -1,0 +1,99 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+table {
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;
+} 
+input, select, button, textarea {
+	margin: 0; 
+	font-size: 100%;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0;
+}
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+/* --------------- базовые настройки ---------*/
+html {
+	overflow-y: scroll;
+}
+body {
+	line-height: 1;
+	background: #fff;
+	color: #666;
+	text-align: left;
+}
+input, select, button, textarea {
+	font-family: Arial, Verdana, sans-serif;
+}
+label, input[type="button"], input[type="submit"], button {
+	cursor: pointer;
+}
+a, a:visited {
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus, a:active {
+	
+}
+/* --------------- /базовые настройки ---------*/
+/*
+     FILE ARCHIVED ON 06:28:33 Sep 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:49:51 May 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 137.556
+  exclusion.robots: 0.07
+  exclusion.robots.policy: 0.06
+  cdx.remote: 0.079
+  esindex: 0.012
+  LoadShardBlock: 109.904 (3)
+  PetaboxLoader3.datanode: 180.312 (4)
+  load_resource: 260.463
+  PetaboxLoader3.resolve: 38.332
+*/

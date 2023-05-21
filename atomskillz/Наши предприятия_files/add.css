@@ -1,0 +1,152 @@
+.wrap_inner .header .discover {
+	display: none;
+}
+
+.factory {
+	width: 260px;
+	height: 260px;
+	overflow: hidden;
+}
+
+body>.wrap {
+	min-width:320px;
+} 
+
+.filter .right p {
+	text-transform: lowercase;
+}
+
+.ui-autocomplete {
+	max-width: 50%;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.ui-menu-item-wrapper,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+select.form-control>option {
+	color: #b1b1b1;
+}
+
+.ui-menu-item-wrapper,
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+	font-size: 0.9em;
+}
+
+legend {
+	font-size: 2em;
+	margin: 1.5em 0 0.75em;
+}
+
+
+.test-title{
+	background-color: #fff;
+	font-size: 18px;
+	font-weight:700;
+	min-height: 60px;
+	padding: 16px;
+	margin-bottom: 15px;
+}
+.test-col{
+	margin-bottom: 15px;
+}
+.title-height{
+	min-height: 30px;
+	max-height: 150px;
+}
+.test-state:before{
+	content:"";
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-right: 10px;
+}
+.test-state.ok:before{
+	background-color: #7bcb5a;
+}
+.test-state.no:before{
+	background-color: #ccc;
+}
+.test-state.act:before{
+	background-color: #006ed5;
+}
+
+label.checkbox {
+	display: block;
+	margin: 0.3em 0;
+}
+
+
+
+
+
+
+.divisions { position: relative; margin-top: 30px; min-height: 600px; background: url("/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/images/division-back-line1.png") no-repeat center center, url("/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/images/division_rosatom.png") no-repeat center 238px; }
+.divisions-back { background: url("/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/images/back.png") repeat; padding-bottom: 30px; }
+.divisions-block { display: block; position: absolute; width: 25%; padding-left: 10px; padding-right: 10px; }
+.divisions-block:first-child { top: 0; left: 0; }
+.divisions-block:nth-child(2) { top: 0; left: 25%; }
+.divisions-block:nth-child(3) { top: 0; left: 50%; }
+.divisions-block:nth-child(4) { top: 0; left: 75%; }
+.divisions-block:nth-child(5) { top: 210px; left: 0; }
+.divisions-block:nth-child(6) { top: 210px; right: 0; }
+.divisions-block:nth-child(7) { top: 440px; left: 0; }
+.divisions-block:nth-child(8) { top: 440px; left: 25%; }
+.divisions-block:nth-child(9) { top: 440px; left: 50%; }
+.divisions-block:nth-child(10) { top: 440px; left: 75%; }
+.divisions-block__imgbox { width: 100%; position: relative; height: 113px; border: 1px solid #e2e2e2; box-shadow: 0 1px 1px #ebebeb; background-color: #fff; overflow: hidden; transition: box-shadow .3s ease; }
+.divisions-block:hover .divisions-block__imgbox { box-shadow: 0 1px 15px #dadada; }
+.divisions-block:nth-child(7) .divisions-block__imgbox, .divisions-block:nth-child(8) .divisions-block__imgbox, .divisions-block:nth-child(9) .divisions-block__imgbox, .divisions-block:nth-child(10) .divisions-block__imgbox { position: absolute; top: 45px; left: 0; right: 0; bottom: 0; margin: 0 auto; width: 90%; }
+.divisions-block__pic { width: 100%; position: absolute; left: 50%; top: 50%; padding: 5px; text-align: center; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.divisions-block__link { text-transform: uppercase; text-align: center; margin-top: 10px; margin-bottom: 10px; }
+.divisions-block__link span { text-decoration: underline; }
+.divisions-block__link:hover span { text-decoration: none; }
+.divisions-block:nth-child(7) .divisions-block__link, .divisions-block:nth-child(8) .divisions-block__link, .divisions-block:nth-child(9) .divisions-block__link, .divisions-block:nth-child(10) .divisions-block__link { position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; }
+
+
+.fc-day-grid-event .fc-time {
+	display: none;
+}
+
+.fc-day-grid-event .fc-content {
+	white-space: normal !important;
+}
+
+.fc {
+	background-color: #FFFFFF;
+}
+
+.margin-bottom {
+	margin-bottom: 4em;
+}
+
+@media only screen and (max-width : 991px) {
+	.factory {
+	width: 200px;
+	height: 200px;
+	}
+}
+/*
+     FILE ARCHIVED ON 06:28:33 Sep 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:49:51 May 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 92.01
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.088
+  cdx.remote: 0.077
+  esindex: 0.011
+  LoadShardBlock: 61.48 (3)
+  PetaboxLoader3.datanode: 106.652 (4)
+  load_resource: 113.194
+  PetaboxLoader3.resolve: 60.476
+*/

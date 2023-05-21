@@ -1,0 +1,155 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+$(document).ready(function() {
+    if($('select').length > 0){
+		$('select').select2();
+    }
+    $(".burger").click(function(){
+        $(".menu-layer").fadeIn();
+    });
+    
+	$(".menu-close").click(function(){
+		$(".menu-layer").fadeOut();
+	});
+	
+	
+	$(window).resize(function(){
+		if($(window).width() > 1182) {
+		$(".menu-layer").css("display", "block");
+	}else $(".menu-layer").css("display", "none");
+	
+	});
+	
+    $(".toggle").click(function(){
+        $(".tooltip").slideToggle();
+    });
+
+     $(".cake").click(function() {
+        $(this).toggleClass('active')
+        $(".nav_mob").slideToggle();
+    });
+    
+    
+    $('.bxslider_1').bxSlider({
+        mode: 'fade',
+        auto: false,
+        pager: false
+    });
+    
+    $('.bxslider_2').bxSlider({
+        mode: 'fade',
+        auto: false,
+        pager: false
+    });
+    
+    $('.carousel').owlCarousel({
+        autoplay:false,        
+        autoplayTimeout: 2700,
+        nav:false,
+        dots:true,
+        loop:true,
+        margin:17,
+        responsive:{
+             320:{
+                items:1
+            },
+             380:{
+                items:1
+            },
+             480:{
+                items:1
+            },
+             600:{
+                items:1
+            },
+             768:{
+                items:2
+            },
+            992:{
+                items:2
+            },
+            1024:{
+                items:2
+            },
+            1170:{
+                items:3
+            },
+            1366:{
+                items:3
+            },
+            1920:{
+                items:4
+            }
+        }
+    }); 
+   
+  
+    
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 131) {
+            $('.stick').addClass('sticky').animate({
+                top: 0
+            });
+        }
+        else {
+            $('.stick').removeClass('sticky').clearQueue().animate({
+                top: "0px"
+            }, 500);
+        }
+    }); 
+    
+
+    
+    $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+        $(this)
+          .addClass('active').siblings().removeClass('active')
+          .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+    });
+	
+	$('select#topic').on('change', function(){
+		 $('#topic_text').val($('#topic option:selected').text());
+		 if ($(this).val() == 'ContactsCenterFormMailList_Hotline') {
+			 $('.block-hotline-photo').slideDown(400);
+		 } else {
+			 $('.block-hotline-photo').slideUp(400);
+		 }
+	});
+    
+ 
+    
+
+});
+
+
+
+}
+/*
+     FILE ARCHIVED ON 06:28:35 Sep 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:49:55 May 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 282.187
+  exclusion.robots: 0.071
+  exclusion.robots.policy: 0.061
+  cdx.remote: 0.077
+  esindex: 0.009
+  LoadShardBlock: 253.707 (3)
+  PetaboxLoader3.datanode: 269.771 (4)
+  load_resource: 89.257
+  PetaboxLoader3.resolve: 37.102
+*/

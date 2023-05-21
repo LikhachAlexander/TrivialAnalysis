@@ -1,0 +1,116 @@
+/*
+@font-face {
+
+    font-family: 'ralewayblack';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-black.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-black.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-black.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'ralewaybold';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-bold.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-bold.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-bold.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'ralewayextrabold';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extrabold.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extrabold.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extrabold.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extralight.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extralight.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extralight.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'ralewaylight';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-light.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-light.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-light.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-medium.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-medium.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-medium.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'ralewayregular';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-regular.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-regular.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-regular.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-semibold.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-semibold.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-semibold.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-thin.eot');
+    src: url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-thin.eot#iefix') format('embedded-opentype'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-thin.woff') format('woff'),
+         url('/web/20210928062833im_/https://rosatom-career.ru/mediafiles/adaptive3/fonts/raleway-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+/*
+     FILE ARCHIVED ON 06:28:33 Sep 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:49:51 May 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 156.674
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.08
+  cdx.remote: 0.059
+  esindex: 0.009
+  LoadShardBlock: 96.543 (3)
+  PetaboxLoader3.datanode: 120.603 (4)
+  load_resource: 215.762
+  PetaboxLoader3.resolve: 154.704
+*/
